@@ -1,0 +1,50 @@
+h1 {
+    font-size: 30px;
+    color: rgb(100, 100, 148);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: 'Waiting for the Sunrise', cursive; 
+    font-size: 24px;
+    color: rgb(100, 100, 148);
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.holdingDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+body {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
